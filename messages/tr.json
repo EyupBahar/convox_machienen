@@ -1,0 +1,287 @@
+{
+  "common": {
+    "companyName": "İshak Paşa Tokat",
+    "companyShort": "İPT",
+    "allRightsReserved": "Tüm hakları saklıdır."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "services": "Hizmetler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "İnşaat Makineleri ve Tesislerinde",
+    "subtitle": "Güvenilir Çözüm Ortağınız",
+    "description": "Beton, asfalt ve kırma-eleme tesisleri konusunda 15 yılı aşkın deneyimimizle kaliteli hizmet sunuyoruz. Projelerinize değer katıyoruz.",
+    "ctaContact": "Hemen İletişime Geçin",
+    "ctaProducts": "Ürünlerimizi İnceleyin"
+  },
+  "stats": {
+    "experience": "Yıllık Deneyim",
+    "projects": "Tamamlanan Proje",
+    "customers": "Mutlu Müşteri",
+    "support": "Teknik Destek"
+  },
+  "features": {
+    "title": "Neden Bizi Seçmelisiniz?",
+    "subtitle": "Deneyimli ekibimiz ve kaliteli ürünlerimizle projelerinize değer katıyoruz",
+    "quality": {
+      "title": "Kaliteli Üretim",
+      "description": "Yüksek kaliteli malzemeler ve modern teknoloji kullanarak üretim yapıyoruz."
+    },
+    "fast": {
+      "title": "Hızlı Teslimat",
+      "description": "Projelerinizin zamanında tamamlanması için hızlı ve güvenilir teslimat sağlıyoruz."
+    },
+    "support": {
+      "title": "Teknik Destek",
+      "description": "Kurulum, eğitim ve sürekli teknik destek hizmeti sunuyoruz."
+    },
+    "price": {
+      "title": "Uygun Fiyat",
+      "description": "Rekabetçi fiyatlar ve esnek ödeme seçenekleri ile hizmetinizdeyiz."
+    }
+  },
+  "products": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Geniş ürün yelpazemiz ile ihtiyaçlarınıza uygun çözümler sunuyoruz",
+    "viewAll": "Tüm Ürünleri Görüntüle",
+    "concrete": {
+      "title": "Beton Tesisleri",
+      "description": "Stationer ve mobil beton tesisleri ile yüksek kaliteli beton üretimi."
+    },
+    "asphalt": {
+      "title": "Asfalt Tesisleri",
+      "description": "Modern asfalt üretim tesisleri ve bitumen işleme ekipmanları."
+    },
+    "crushing": {
+      "title": "Kırma-Eleme Tesisleri",
+      "description": "Mobil ve stationer kırma-eleme tesisleri ile agrega üretimi."
+    },
+    "washing": {
+      "title": "Yıkama Tesisleri",
+      "description": "Kum ve agrega yıkama tesisleri ile temiz malzeme üretimi."
+    }
+  },
+  "cta": {
+    "title": "Projeleriniz İçin Hazırız",
+    "description": "İnşaat makineleri ve tesisler konusunda uzman ekibimizle iletişime geçin. Size en uygun çözümü birlikte belirleyelim.",
+    "contact": "Hemen İletişime Geçin",
+    "learnMore": "Hakkımızda Daha Fazla"
+  },
+  "footer": {
+    "title": "İshak Paşa Tokat Projesi",
+    "description": "İnşaat makineleri, beton ve asfalt tesisleri konusunda uzman ekibimizle kaliteli hizmet sunuyoruz. Müşteri memnuniyeti bizim önceliğimizdir.",
+    "quickLinks": "Hızlı Linkler",
+    "contact": "İletişim",
+    "address": "Tokat, Türkiye",
+    "phone": "+90 (XXX) XXX XX XX",
+    "email": "info@ishakpasatokat.com"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "İnşaat makineleri ve tesisler konusunda uzman ekibimizle hizmetinizdeyiz",
+    "companyTitle": "Firmamız Hakkında",
+    "companyText1": "İshak Paşa Tokat Projesi olarak, inşaat makineleri, beton ve asfalt tesisleri konusunda 15 yılı aşkın deneyimimizle sektörde öncü bir konumdayız. Müşteri memnuniyetini ön planda tutarak, kaliteli ürünler ve profesyonel hizmet sunuyoruz.",
+    "companyText2": "Modern teknoloji ve yüksek kaliteli malzemeler kullanarak üretim yapıyoruz. Tüm ürünlerimiz uluslararası standartlara uygun olarak tasarlanmakta ve üretilmektedir. ISO 9001 kalite yönetim sistemi belgemiz ile kalite güvencemizi belgeliyoruz.",
+    "vision": {
+      "title": "Vizyonumuz",
+      "text": "İnşaat makineleri sektöründe Türkiye'nin ve dünyanın önde gelen üreticilerinden biri olmak, sürekli gelişen teknolojiye ayak uydurarak müşterilerimize en iyi hizmeti sunmak."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "text": "Müşterilerimize kaliteli, güvenilir ve ekonomik çözümler sunarak, projelerinin başarıyla tamamlanmasına katkıda bulunmak. Sürdürülebilir üretim anlayışı ile çevreye duyarlı ürünler geliştirmek."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "quality": {
+        "title": "Kalite",
+        "text": "Her zaman en yüksek kalite standartlarını hedefliyoruz"
+      },
+      "trust": {
+        "title": "Güven",
+        "text": "Müşterilerimizle uzun vadeli güven ilişkileri kuruyoruz"
+      },
+      "innovation": {
+        "title": "İnovasyon",
+        "text": "Sürekli gelişim ve yenilikçi çözümler üretiyoruz"
+      }
+    }
+  },
+  "productsPage": {
+    "title": "Ürünlerimiz",
+    "subtitle": "Geniş ürün yelpazemiz ile ihtiyaçlarınıza uygun çözümler",
+    "concrete": {
+      "title": "Beton Tesisleri",
+      "stationary": {
+        "name": "Stationer Beton Tesisleri",
+        "description": "Büyük projeler için yüksek kapasiteli stationer beton tesisleri. 60m³/h ile 200m³/h arası kapasiteler."
+      },
+      "mobile": {
+        "name": "Mobil Beton Tesisleri",
+        "description": "Taşınabilir ve hızlı kurulum özellikli mobil beton tesisleri. Projelerinize hızla hizmet verir."
+      },
+      "compact": {
+        "name": "Kompakt Beton Tesisleri",
+        "description": "Küçük ve orta ölçekli projeler için kompakt tasarımlı beton tesisleri."
+      },
+      "dry": {
+        "name": "Kuru Karışım Tesisleri",
+        "description": "Hazır sıva ve harç üretimi için özel tasarlanmış kuru karışım tesisleri."
+      }
+    },
+    "asphalt": {
+      "title": "Asfalt Tesisleri",
+      "stationary": {
+        "name": "Stationer Asfalt Tesisleri",
+        "description": "Yüksek kapasiteli stationer asfalt üretim tesisleri. 80-400 ton/saat kapasiteler."
+      },
+      "mobile": {
+        "name": "Mobil Asfalt Tesisleri",
+        "description": "Farklı lokasyonlarda çalışma imkanı sunan mobil asfalt tesisleri."
+      },
+      "bitumen": {
+        "name": "Bitumen İşleme Ekipmanları",
+        "description": "Bitumen emülsiyon ve modifiye bitumen üretim ekipmanları."
+      },
+      "recycling": {
+        "name": "Asfalt Geri Dönüşüm Sistemleri",
+        "description": "Çevre dostu asfalt geri dönüşüm ve RAP işleme sistemleri."
+      }
+    },
+    "crushing": {
+      "title": "Kırma-Eleme Tesisleri",
+      "jaw": {
+        "name": "Çeneli Kırıcılar",
+        "description": "Birincil kırma işlemleri için güçlü ve dayanıklı çeneli kırıcılar."
+      },
+      "impact": {
+        "name": "Darbeli Kırıcılar",
+        "description": "Yüksek verimli darbeli kırıcılar ile ikincil ve üçüncül kırma işlemleri."
+      },
+      "cone": {
+        "name": "Konik Kırıcılar",
+        "description": "İnce malzeme üretimi için konik kırıcılar."
+      },
+      "screening": {
+        "name": "Eleme Sistemleri",
+        "description": "Çok katmanlı eleme sistemleri ile farklı boyutlarda agrega üretimi."
+      }
+    },
+    "washing": {
+      "title": "Yıkama Tesisleri",
+      "sand": {
+        "name": "Kum Yıkama Tesisleri",
+        "description": "Yüksek kaliteli temiz kum üretimi için kum yıkama tesisleri."
+      },
+      "aggregate": {
+        "name": "Agrega Yıkama Sistemleri",
+        "description": "Agrega yıkama ve sınıflandırma sistemleri."
+      },
+      "water": {
+        "name": "Su Geri Kazanım Sistemleri",
+        "description": "Çevre dostu su geri kazanım ve filtreleme sistemleri."
+      }
+    },
+    "cta": {
+      "title": "Ürünlerimiz Hakkında Daha Fazla Bilgi Alın",
+      "description": "Teknik özellikler ve fiyat bilgisi için bizimle iletişime geçin",
+      "button": "İletişime Geçin"
+    }
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Ürünlerimizin yanı sıra kapsamlı hizmetlerimizle yanınızdayız",
+    "design": {
+      "title": "Tasarım ve Mühendislik",
+      "description": "Projelerinize özel tasarım ve mühendislik hizmetleri. Deneyimli ekibimizle en uygun çözümleri sunuyoruz.",
+      "features": ["Özel tasarım çözümleri", "Teknik danışmanlık", "Proje planlama", "3D modelleme"]
+    },
+    "production": {
+      "title": "Üretim ve Montaj",
+      "description": "Yüksek kaliteli üretim ve profesyonel montaj hizmetleri. Tüm ürünlerimiz uluslararası standartlara uygundur.",
+      "features": ["Kaliteli üretim", "Profesyonel montaj", "Kalite kontrol", "Test ve deneme"]
+    },
+    "maintenance": {
+      "title": "Bakım ve Onarım",
+      "description": "7/24 teknik destek ve bakım hizmetleri. Ekipmanlarınızın uzun ömürlü olması için yanınızdayız.",
+      "features": ["Periyodik bakım", "Acil onarım", "Yedek parça temini", "Uzaktan destek"]
+    },
+    "training": {
+      "title": "Eğitim ve Danışmanlık",
+      "description": "Personel eğitimi ve operasyonel danışmanlık hizmetleri. Ekipmanlarınızı en verimli şekilde kullanın.",
+      "features": ["Operatör eğitimi", "İşletme danışmanlığı", "Güvenlik eğitimi", "Teknik dokümantasyon"]
+    },
+    "logistics": {
+      "title": "Lojistik ve Teslimat",
+      "description": "Güvenli ve zamanında teslimat hizmetleri. Projelerinizin aksamaması için hızlı çözümler.",
+      "features": ["Uluslararası nakliye", "Gümrük işlemleri", "Zamanında teslimat", "Sigorta hizmetleri"]
+    },
+    "project": {
+      "title": "Proje Yönetimi",
+      "description": "Baştan sona proje yönetimi hizmetleri. Projelerinizin sorunsuz tamamlanması için yanınızdayız.",
+      "features": ["Proje planlama", "Zaman yönetimi", "Bütçe kontrolü", "Risk yönetimi"]
+    },
+    "process": {
+      "title": "Çalışma Sürecimiz",
+      "step1": {
+        "title": "İletişim",
+        "desc": "İhtiyaçlarınızı belirliyoruz"
+      },
+      "step2": {
+        "title": "Tasarım",
+        "desc": "En uygun çözümü tasarlıyoruz"
+      },
+      "step3": {
+        "title": "Üretim",
+        "desc": "Kaliteli üretim yapıyoruz"
+      },
+      "step4": {
+        "title": "Teslimat",
+        "desc": "Zamanında teslim ediyoruz"
+      }
+    },
+    "cta": {
+      "title": "Hizmetlerimizden Yararlanın",
+      "description": "Projeleriniz için profesyonel destek almak için bizimle iletişime geçin",
+      "button": "İletişime Geçin"
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Sorularınız ve projeleriniz için bizimle iletişime geçin",
+    "form": {
+      "title": "Bize Ulaşın",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "subject": "Konu",
+      "subjectPlaceholder": "Konu seçiniz",
+      "subjectOptions": {
+        "product": "Ürün Bilgisi",
+        "price": "Fiyat Teklifi",
+        "support": "Teknik Destek",
+        "other": "Diğer"
+      },
+      "message": "Mesajınız",
+      "messagePlaceholder": "Mesajınızı buraya yazın...",
+      "submit": "Mesaj Gönder",
+      "submitting": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "address": "Adres",
+      "addressValue": "Tokat, Türkiye",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "hours": "Çalışma Saatleri",
+      "hoursValue": "Pazartesi - Cuma: 08:00 - 18:00\nCumartesi: 09:00 - 13:00",
+      "mapPlaceholder": "Harita buraya eklenecek"
+    }
+  }
+}
+

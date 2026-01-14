@@ -1,0 +1,287 @@
+{
+  "common": {
+    "companyName": "Ishak Pasha Tokat",
+    "companyShort": "IPT",
+    "allRightsReserved": "All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Construction Machinery and Plants",
+    "subtitle": "Your Reliable Solution Partner",
+    "description": "We provide quality services with over 15 years of experience in concrete, asphalt and crushing-screening plants. We add value to your projects.",
+    "ctaContact": "Contact Us Now",
+    "ctaProducts": "View Our Products"
+  },
+  "stats": {
+    "experience": "Years of Experience",
+    "projects": "Completed Projects",
+    "customers": "Happy Customers",
+    "support": "Technical Support"
+  },
+  "features": {
+    "title": "Why Choose Us?",
+    "subtitle": "We add value to your projects with our experienced team and quality products",
+    "quality": {
+      "title": "Quality Production",
+      "description": "We manufacture using high-quality materials and modern technology."
+    },
+    "fast": {
+      "title": "Fast Delivery",
+      "description": "We provide fast and reliable delivery to ensure your projects are completed on time."
+    },
+    "support": {
+      "title": "Technical Support",
+      "description": "We offer installation, training and continuous technical support services."
+    },
+    "price": {
+      "title": "Competitive Prices",
+      "description": "We are at your service with competitive prices and flexible payment options."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "We offer solutions suitable for your needs with our wide product range",
+    "viewAll": "View All Products",
+    "concrete": {
+      "title": "Concrete Plants",
+      "description": "High-quality concrete production with stationary and mobile concrete plants."
+    },
+    "asphalt": {
+      "title": "Asphalt Plants",
+      "description": "Modern asphalt production plants and bitumen processing equipment."
+    },
+    "crushing": {
+      "title": "Crushing-Screening Plants",
+      "description": "Aggregate production with mobile and stationary crushing-screening plants."
+    },
+    "washing": {
+      "title": "Washing Plants",
+      "description": "Clean material production with sand and aggregate washing plants."
+    }
+  },
+  "cta": {
+    "title": "We Are Ready for Your Projects",
+    "description": "Contact our expert team in construction machinery and plants. Let's determine the most suitable solution for you together.",
+    "contact": "Contact Us Now",
+    "learnMore": "Learn More About Us"
+  },
+  "footer": {
+    "title": "Ishak Pasha Tokat Project",
+    "description": "We provide quality services with our expert team in construction machinery, concrete and asphalt plants. Customer satisfaction is our priority.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "address": "Tokat, Turkey",
+    "phone": "+90 (XXX) XXX XX XX",
+    "email": "info@ishakpasatokat.com"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "We are at your service with our expert team in construction machinery and plants",
+    "companyTitle": "About Our Company",
+    "companyText1": "As Ishak Pasha Tokat Project, we are a leading position in the industry with over 15 years of experience in construction machinery, concrete and asphalt plants. We provide quality products and professional services by prioritizing customer satisfaction.",
+    "companyText2": "We manufacture using modern technology and high-quality materials. All our products are designed and manufactured in accordance with international standards. We document our quality assurance with our ISO 9001 quality management system certificate.",
+    "vision": {
+      "title": "Our Vision",
+      "text": "To be one of the leading manufacturers in Turkey and the world in the construction machinery sector, to provide the best service to our customers by keeping up with constantly evolving technology."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "text": "To contribute to the successful completion of their projects by providing quality, reliable and economical solutions to our customers. To develop environmentally friendly products with a sustainable production approach."
+    },
+    "values": {
+      "title": "Our Values",
+      "quality": {
+        "title": "Quality",
+        "text": "We always aim for the highest quality standards"
+      },
+      "trust": {
+        "title": "Trust",
+        "text": "We build long-term trust relationships with our customers"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "text": "We produce continuous development and innovative solutions"
+      }
+    }
+  },
+  "productsPage": {
+    "title": "Our Products",
+    "subtitle": "We offer solutions suitable for your needs with our wide product range",
+    "concrete": {
+      "title": "Concrete Plants",
+      "stationary": {
+        "name": "Stationary Concrete Plants",
+        "description": "High-capacity stationary concrete plants for large projects. Capacities between 60m³/h and 200m³/h."
+      },
+      "mobile": {
+        "name": "Mobile Concrete Plants",
+        "description": "Portable and quick installation mobile concrete plants. They serve your projects quickly."
+      },
+      "compact": {
+        "name": "Compact Concrete Plants",
+        "description": "Compact designed concrete plants for small and medium scale projects."
+      },
+      "dry": {
+        "name": "Dry Mix Plants",
+        "description": "Dry mix plants specially designed for ready-made plaster and mortar production."
+      }
+    },
+    "asphalt": {
+      "title": "Asphalt Plants",
+      "stationary": {
+        "name": "Stationary Asphalt Plants",
+        "description": "High-capacity stationary asphalt production plants. 80-400 tons/hour capacities."
+      },
+      "mobile": {
+        "name": "Mobile Asphalt Plants",
+        "description": "Mobile asphalt plants offering the opportunity to work in different locations."
+      },
+      "bitumen": {
+        "name": "Bitumen Processing Equipment",
+        "description": "Bitumen emulsion and modified bitumen production equipment."
+      },
+      "recycling": {
+        "name": "Asphalt Recycling Systems",
+        "description": "Environmentally friendly asphalt recycling and RAP processing systems."
+      }
+    },
+    "crushing": {
+      "title": "Crushing-Screening Plants",
+      "jaw": {
+        "name": "Jaw Crushers",
+        "description": "Strong and durable jaw crushers for primary crushing operations."
+      },
+      "impact": {
+        "name": "Impact Crushers",
+        "description": "Secondary and tertiary crushing operations with high-efficiency impact crushers."
+      },
+      "cone": {
+        "name": "Cone Crushers",
+        "description": "Cone crushers for fine material production."
+      },
+      "screening": {
+        "name": "Screening Systems",
+        "description": "Aggregate production in different sizes with multi-layer screening systems."
+      }
+    },
+    "washing": {
+      "title": "Washing Plants",
+      "sand": {
+        "name": "Sand Washing Plants",
+        "description": "Sand washing plants for high-quality clean sand production."
+      },
+      "aggregate": {
+        "name": "Aggregate Washing Systems",
+        "description": "Aggregate washing and classification systems."
+      },
+      "water": {
+        "name": "Water Recovery Systems",
+        "description": "Environmentally friendly water recovery and filtration systems."
+      }
+    },
+    "cta": {
+      "title": "Get More Information About Our Products",
+      "description": "Contact us for technical specifications and price information",
+      "button": "Contact Us"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We are with you with comprehensive services in addition to our products",
+    "design": {
+      "title": "Design and Engineering",
+      "description": "Custom design and engineering services for your projects. We offer the most suitable solutions with our experienced team.",
+      "features": ["Custom design solutions", "Technical consultancy", "Project planning", "3D modeling"]
+    },
+    "production": {
+      "title": "Production and Assembly",
+      "description": "High-quality production and professional assembly services. All our products comply with international standards.",
+      "features": ["Quality production", "Professional assembly", "Quality control", "Testing and trials"]
+    },
+    "maintenance": {
+      "title": "Maintenance and Repair",
+      "description": "24/7 technical support and maintenance services. We are with you for the longevity of your equipment.",
+      "features": ["Periodic maintenance", "Emergency repair", "Spare parts supply", "Remote support"]
+    },
+    "training": {
+      "title": "Training and Consulting",
+      "description": "Personnel training and operational consulting services. Use your equipment in the most efficient way.",
+      "features": ["Operator training", "Business consulting", "Safety training", "Technical documentation"]
+    },
+    "logistics": {
+      "title": "Logistics and Delivery",
+      "description": "Safe and timely delivery services. Fast solutions so your projects don't get delayed.",
+      "features": ["International shipping", "Customs procedures", "Timely delivery", "Insurance services"]
+    },
+    "project": {
+      "title": "Project Management",
+      "description": "End-to-end project management services. We are with you for the smooth completion of your projects.",
+      "features": ["Project planning", "Time management", "Budget control", "Risk management"]
+    },
+    "process": {
+      "title": "Our Working Process",
+      "step1": {
+        "title": "Contact",
+        "desc": "We identify your needs"
+      },
+      "step2": {
+        "title": "Design",
+        "desc": "We design the most suitable solution"
+      },
+      "step3": {
+        "title": "Production",
+        "desc": "We produce quality"
+      },
+      "step4": {
+        "title": "Delivery",
+        "desc": "We deliver on time"
+      }
+    },
+    "cta": {
+      "title": "Benefit from Our Services",
+      "description": "Contact us to get professional support for your projects",
+      "button": "Contact Us"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contact us for your questions and projects",
+    "form": {
+      "title": "Contact Us",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select subject",
+      "subjectOptions": {
+        "product": "Product Information",
+        "price": "Price Quote",
+        "support": "Technical Support",
+        "other": "Other"
+      },
+      "message": "Your Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Your message has been sent successfully! We will get back to you as soon as possible.",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Address",
+      "addressValue": "Tokat, Turkey",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Working Hours",
+      "hoursValue": "Monday - Friday: 08:00 - 18:00\nSaturday: 09:00 - 13:00",
+      "mapPlaceholder": "Map will be added here"
+    }
+  }
+}
+
