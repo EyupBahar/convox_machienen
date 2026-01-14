@@ -14,5 +14,5 @@ export const translations = {
   fr,
 };
 
-export type TranslationKeys = typeof tr;
+export type TranslationKeys = typeof translations[Language];
 
