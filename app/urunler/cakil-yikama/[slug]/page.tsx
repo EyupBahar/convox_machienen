@@ -33,10 +33,23 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const product = t.productsPage.gravelWashing[productKey] as {
-    name: string;
-    description: string;
+  const gravelWashing = t.productsPage.gravelWashing as unknown as {
+    [key: string]: { name: string; description: string } | string | undefined;
   };
+  const product = gravelWashing[productKey] as { name: string; description: string } | undefined;
+  
+  if (!product) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">{t.productsPage.productDetail.productNotFound}</h1>
+          <Link href="/urunler/cakil-yikama" className="text-blue-600 hover:underline">
+            {t.productsPage.productDetail.goBack}
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   // Dummy images - using fixed seed values to prevent hydration mismatch
   const productImages = [

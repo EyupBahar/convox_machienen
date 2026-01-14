@@ -31,12 +31,23 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const mobileCrushingData = t.productsPage.mobileCrushing as any;
-  const product = mobileCrushingData[productKey] as {
-    name: string;
-    description: string;
+  const mobileCrushing = t.productsPage.mobileCrushing as unknown as {
+    [key: string]: { name: string; description: string } | string | undefined;
   };
+  const product = mobileCrushing[productKey] as { name: string; description: string } | undefined;
+  
+  if (!product) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">{t.productsPage.productDetail.productNotFound}</h1>
+          <Link href="/urunler/mobil-kirma" className="text-blue-600 hover:underline">
+            {t.productsPage.productDetail.goBack}
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   // Check if this is Mobile Hard Stone Crushers to show sub-products
   const isHardStone = slug === 'mobile-hard-stone-crushers';

@@ -237,7 +237,8 @@ export const fr = {
       flexibleSolutionsDesc: "Options de conception personnalisées pour votre projet",
       viewOtherProducts: "Voir les autres produits",
       productNotFound: "Produit introuvable",
-      goBack: "Retour"
+      goBack: "Retour",
+      subProducts: "Sous-produits"
     }
   },
   services: {
