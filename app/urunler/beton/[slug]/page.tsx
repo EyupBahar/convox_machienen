@@ -33,14 +33,19 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const concreteBatching = t.productsPage.concreteBatching as Record<string, {
+  type ProductDetail = {
     name: string;
     description: string;
     detailTitle: string;
     detailDescription: string;
-  }>;
-  
-  const product = concreteBatching[productKey];
+  };
+
+  // Safely access the product by key with proper type casting
+  // Using unknown first to avoid type conflicts, then casting to allow indexing
+  const concreteBatching = t.productsPage.concreteBatching as unknown as {
+    [key: string]: ProductDetail | string | undefined;
+  };
+  const product = concreteBatching[productKey] as ProductDetail | undefined;
   
   if (!product || !product.detailTitle || !product.detailDescription) {
     return (
