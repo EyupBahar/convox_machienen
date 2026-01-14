@@ -166,7 +166,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {stationaryProducts.map((subProduct) => {
-                const concreteBatchingAny = t.productsPage.concreteBatching as any;
+                const productsPageAny = t.productsPage as any;
+                const concreteBatchingAny = productsPageAny.concreteBatching as any;
                 const subProductData = concreteBatchingAny.stationaryProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
@@ -280,7 +281,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {compactProducts.map((subProduct) => {
-                const concreteBatchingAny = t.productsPage.concreteBatching as any;
+                const productsPageAny = t.productsPage as any;
+                const concreteBatchingAny = productsPageAny.concreteBatching as any;
                 const subProductData = concreteBatchingAny.compactProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
@@ -328,7 +330,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {dryTypeProducts.map((subProduct) => {
-                const concreteBatchingAny = t.productsPage.concreteBatching as any;
+                const productsPageAny = t.productsPage as any;
+                const concreteBatchingAny = productsPageAny.concreteBatching as any;
                 const subProductData = concreteBatchingAny.dryTypeProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
@@ -393,7 +396,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {cementSilosProductsGeneral.map((subProduct) => {
-                const cementSilosAny = t.productsPage.cementSilos as any;
+                const productsPageAny = t.productsPage as any;
+                const cementSilosAny = productsPageAny.cementSilos as any;
                 const subProductData = cementSilosAny[subProduct.key] as {
                   name: string;
                   description: string;
@@ -441,7 +445,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {cementSilosProductsWithDetails.map((subProduct) => {
-                const cementSilosAny = t.productsPage.cementSilos as any;
+                const productsPageAny = t.productsPage as any;
+                const cementSilosAny = productsPageAny.cementSilos as any;
                 const subProductData = cementSilosAny[subProduct.key] as {
                   name: string;
                   description: string;
@@ -506,7 +511,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {mixersProducts.map((subProduct) => {
-                const concreteBatchingAny = t.productsPage.concreteBatching as any;
+                const productsPageAny = t.productsPage as any;
+                const concreteBatchingAny = productsPageAny.concreteBatching as any;
                 const subProductData = concreteBatchingAny.mixersProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
