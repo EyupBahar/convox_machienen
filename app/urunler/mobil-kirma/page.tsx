@@ -6,30 +6,32 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function MobileCrushingPlants() {
   const { t } = useLanguage();
+  const productsPageAny = t.productsPage as any;
+  const mobileCrushing = productsPageAny.mobileCrushing as any;
 
   const products = [
     {
       slug: 'mobile-hard-stone-crushers',
-      name: t.productsPage.mobileCrushing.hardStone.name,
-      description: t.productsPage.mobileCrushing.hardStone.description,
+      name: mobileCrushing.hardStone.name,
+      description: mobileCrushing.hardStone.description,
       image: 'https://picsum.photos/seed/mobile-hard-stone/600/400'
     },
     {
       slug: 'mobile-jaw-impact-crushers',
-      name: t.productsPage.mobileCrushing.jawImpact.name,
-      description: t.productsPage.mobileCrushing.jawImpact.description,
+      name: mobileCrushing.jawImpact.name,
+      description: mobileCrushing.jawImpact.description,
       image: 'https://picsum.photos/seed/mobile-jaw-impact/600/400'
     },
     {
       slug: 'mobile-sand-making-plants',
-      name: t.productsPage.mobileCrushing.sandMaking.name,
-      description: t.productsPage.mobileCrushing.sandMaking.description,
+      name: mobileCrushing.sandMaking.name,
+      description: mobileCrushing.sandMaking.description,
       image: 'https://picsum.photos/seed/mobile-sand-making/600/400'
     },
     {
       slug: 'mobile-limestone-crushers',
-      name: t.productsPage.mobileCrushing.limestone.name,
-      description: t.productsPage.mobileCrushing.limestone.description,
+      name: mobileCrushing.limestone.name,
+      description: mobileCrushing.limestone.description,
       image: 'https://picsum.photos/seed/mobile-limestone/600/400'
     },
   ];
@@ -42,7 +44,7 @@ export default function MobileCrushingPlants() {
             {t.productsDropdown.mobileCrushing}
           </h1>
           <p className="text-xl text-blue-100">
-            {t.productsPage.mobileCrushing.subtitle}
+            {mobileCrushing.subtitle}
           </p>
         </div>
       </section>

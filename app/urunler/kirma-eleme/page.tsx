@@ -6,78 +6,80 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function CrushingScreeningPlants() {
   const { t } = useLanguage();
+  const productsPageAny = t.productsPage as any;
+  const crushingScreening = productsPageAny.crushingScreening as any;
 
   const products = [
     {
       slug: 'stationary-crushing-plants',
-      name: t.productsPage.crushingScreening.stationary.name,
-      description: t.productsPage.crushingScreening.stationary.description,
+      name: crushingScreening.stationary.name,
+      description: crushingScreening.stationary.description,
       image: 'https://picsum.photos/seed/stationary-crushing/600/400'
     },
     {
       slug: 'jaw-crushers',
-      name: t.productsPage.crushingScreening.jaw.name,
-      description: t.productsPage.crushingScreening.jaw.description,
+      name: crushingScreening.jaw.name,
+      description: crushingScreening.jaw.description,
       image: 'https://picsum.photos/seed/jaw-crusher/600/400'
     },
     {
       slug: 'primary-impact-crushers',
-      name: t.productsPage.crushingScreening.primaryImpact.name,
-      description: t.productsPage.crushingScreening.primaryImpact.description,
+      name: crushingScreening.primaryImpact.name,
+      description: crushingScreening.primaryImpact.description,
       image: 'https://picsum.photos/seed/primary-impact/600/400'
     },
     {
       slug: 'secondary-impact-crushers',
-      name: t.productsPage.crushingScreening.secondaryImpact.name,
-      description: t.productsPage.crushingScreening.secondaryImpact.description,
+      name: crushingScreening.secondaryImpact.name,
+      description: crushingScreening.secondaryImpact.description,
       image: 'https://picsum.photos/seed/secondary-impact/600/400'
     },
     {
       slug: 'tertiary-impact-crushers',
-      name: t.productsPage.crushingScreening.tertiaryImpact.name,
-      description: t.productsPage.crushingScreening.tertiaryImpact.description,
+      name: crushingScreening.tertiaryImpact.name,
+      description: crushingScreening.tertiaryImpact.description,
       image: 'https://picsum.photos/seed/tertiary-impact/600/400'
     },
     {
       slug: 'vertical-shaft-impact-crushers',
-      name: t.productsPage.crushingScreening.verticalShaft.name,
-      description: t.productsPage.crushingScreening.verticalShaft.description,
+      name: crushingScreening.verticalShaft.name,
+      description: crushingScreening.verticalShaft.description,
       image: 'https://picsum.photos/seed/vertical-shaft/600/400'
     },
     {
       slug: 'cone-crushers',
-      name: t.productsPage.crushingScreening.cone.name,
-      description: t.productsPage.crushingScreening.cone.description,
+      name: crushingScreening.cone.name,
+      description: crushingScreening.cone.description,
       image: 'https://picsum.photos/seed/cone-crusher/600/400'
     },
     {
       slug: 'wobbler-feeders',
-      name: t.productsPage.crushingScreening.wobblerFeeder.name,
-      description: t.productsPage.crushingScreening.wobblerFeeder.description,
+      name: crushingScreening.wobblerFeeder.name,
+      description: crushingScreening.wobblerFeeder.description,
       image: 'https://picsum.photos/seed/wobbler-feeder/600/400'
     },
     {
       slug: 'vibrating-feeders',
-      name: t.productsPage.crushingScreening.vibratingFeeder.name,
-      description: t.productsPage.crushingScreening.vibratingFeeder.description,
+      name: crushingScreening.vibratingFeeder.name,
+      description: crushingScreening.vibratingFeeder.description,
       image: 'https://picsum.photos/seed/vibrating-feeder/600/400'
     },
     {
       slug: 'vibrating-screens',
-      name: t.productsPage.crushingScreening.vibratingScreen.name,
-      description: t.productsPage.crushingScreening.vibratingScreen.description,
+      name: crushingScreening.vibratingScreen.name,
+      description: crushingScreening.vibratingScreen.description,
       image: 'https://picsum.photos/seed/vibrating-screen/600/400'
     },
     {
       slug: 'belt-conveyors',
-      name: t.productsPage.crushingScreening.beltConveyor.name,
-      description: t.productsPage.crushingScreening.beltConveyor.description,
+      name: crushingScreening.beltConveyor.name,
+      description: crushingScreening.beltConveyor.description,
       image: 'https://picsum.photos/seed/belt-conveyor/600/400'
     },
     {
       slug: 'hydraulic-hammer-breaker',
-      name: t.productsPage.crushingScreening.hydraulicHammer.name,
-      description: t.productsPage.crushingScreening.hydraulicHammer.description,
+      name: crushingScreening.hydraulicHammer.name,
+      description: crushingScreening.hydraulicHammer.description,
       image: 'https://picsum.photos/seed/hydraulic-hammer/600/400'
     },
   ];
@@ -90,7 +92,7 @@ export default function CrushingScreeningPlants() {
             {t.productsDropdown.crushingScreening}
           </h1>
           <p className="text-xl text-blue-100">
-            {t.productsPage.crushingScreening.subtitle}
+            {crushingScreening.subtitle}
           </p>
         </div>
       </section>

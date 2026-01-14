@@ -6,42 +6,44 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function GravelWashingSystems() {
   const { t } = useLanguage();
+  const productsPageAny = t.productsPage as any;
+  const gravelWashing = productsPageAny.gravelWashing as any;
 
   const products = [
     {
       slug: 'stationary-screening-washing-plant',
-      name: t.productsPage.gravelWashing.stationary.name,
-      description: t.productsPage.gravelWashing.stationary.description,
+      name: gravelWashing.stationary.name,
+      description: gravelWashing.stationary.description,
       image: 'https://picsum.photos/seed/stationary-washing/600/400'
     },
     {
       slug: 'mobile-screening-washing-plant',
-      name: t.productsPage.gravelWashing.mobile.name,
-      description: t.productsPage.gravelWashing.mobile.description,
+      name: gravelWashing.mobile.name,
+      description: gravelWashing.mobile.description,
       image: 'https://picsum.photos/seed/mobile-washing/600/400'
     },
     {
       slug: 'screw-washer',
-      name: t.productsPage.gravelWashing.screwWasher.name,
-      description: t.productsPage.gravelWashing.screwWasher.description,
+      name: gravelWashing.screwWasher.name,
+      description: gravelWashing.screwWasher.description,
       image: 'https://picsum.photos/seed/screw-washer/600/400'
     },
     {
       slug: 'dewatering-screen-hydrocyclone',
-      name: t.productsPage.gravelWashing.dewatering.name,
-      description: t.productsPage.gravelWashing.dewatering.description,
+      name: gravelWashing.dewatering.name,
+      description: gravelWashing.dewatering.description,
       image: 'https://picsum.photos/seed/dewatering/600/400'
     },
     {
       slug: 'log-washer',
-      name: t.productsPage.gravelWashing.logWasher.name,
-      description: t.productsPage.gravelWashing.logWasher.description,
+      name: gravelWashing.logWasher.name,
+      description: gravelWashing.logWasher.description,
       image: 'https://picsum.photos/seed/log-washer/600/400'
     },
     {
       slug: 'wheel-bucket-washer',
-      name: t.productsPage.gravelWashing.wheelWasher.name,
-      description: t.productsPage.gravelWashing.wheelWasher.description,
+      name: gravelWashing.wheelWasher.name,
+      description: gravelWashing.wheelWasher.description,
       image: 'https://picsum.photos/seed/wheel-washer/600/400'
     },
   ];
@@ -54,7 +56,7 @@ export default function GravelWashingSystems() {
             {t.productsDropdown.gravelWashing}
           </h1>
           <p className="text-xl text-blue-100">
-            {t.productsPage.gravelWashing.subtitle}
+            {gravelWashing.subtitle}
           </p>
         </div>
       </section>

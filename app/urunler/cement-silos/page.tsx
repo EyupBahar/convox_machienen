@@ -6,66 +6,68 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function CementSilos() {
   const { t } = useLanguage();
+  const productsPageAny = t.productsPage as any;
+  const cementSilos = productsPageAny.cementSilos as any;
 
   const products = [
     {
       slug: 'horizontal-cement-silo',
-      name: t.productsPage.cementSilos.horizontal.name,
-      description: t.productsPage.cementSilos.horizontal.description,
+      name: cementSilos.horizontal.name,
+      description: cementSilos.horizontal.description,
       image: 'https://picsum.photos/seed/horizontal-silo/600/400'
     },
     {
       slug: 'cs-50-cement-silo',
-      name: t.productsPage.cementSilos.cs50.name,
-      description: t.productsPage.cementSilos.cs50.description,
+      name: cementSilos.cs50.name,
+      description: cementSilos.cs50.description,
       image: 'https://picsum.photos/seed/cs-50/600/400'
     },
     {
       slug: 'cs-75-cement-silo',
-      name: t.productsPage.cementSilos.cs75.name,
-      description: t.productsPage.cementSilos.cs75.description,
+      name: cementSilos.cs75.name,
+      description: cementSilos.cs75.description,
       image: 'https://picsum.photos/seed/cs-75/600/400'
     },
     {
       slug: 'cs-100-cement-silo',
-      name: t.productsPage.cementSilos.cs100.name,
-      description: t.productsPage.cementSilos.cs100.description,
+      name: cementSilos.cs100.name,
+      description: cementSilos.cs100.description,
       image: 'https://picsum.photos/seed/cs-100/600/400'
     },
     {
       slug: 'cs-200-bolted-cement-silo',
-      name: t.productsPage.cementSilos.cs200.name,
-      description: t.productsPage.cementSilos.cs200.description,
+      name: cementSilos.cs200.name,
+      description: cementSilos.cs200.description,
       image: 'https://picsum.photos/seed/cs-200/600/400'
     },
     {
       slug: 'cs-300-bolted-cement-silo',
-      name: t.productsPage.cementSilos.cs300.name,
-      description: t.productsPage.cementSilos.cs300.description,
+      name: cementSilos.cs300.name,
+      description: cementSilos.cs300.description,
       image: 'https://picsum.photos/seed/cs-300/600/400'
     },
     {
       slug: 'cs-500-bolted-cement-silo',
-      name: t.productsPage.cementSilos.cs500.name,
-      description: t.productsPage.cementSilos.cs500.description,
+      name: cementSilos.cs500.name,
+      description: cementSilos.cs500.description,
       image: 'https://picsum.photos/seed/cs-500/600/400'
     },
     {
       slug: 'cs-1000-bolted-cement-silo',
-      name: t.productsPage.cementSilos.cs1000.name,
-      description: t.productsPage.cementSilos.cs1000.description,
+      name: cementSilos.cs1000.name,
+      description: cementSilos.cs1000.description,
       image: 'https://picsum.photos/seed/cs-1000/600/400'
     },
     {
       slug: 'cs-2000-bolted-cement-silo',
-      name: t.productsPage.cementSilos.cs2000.name,
-      description: t.productsPage.cementSilos.cs2000.description,
+      name: cementSilos.cs2000.name,
+      description: cementSilos.cs2000.description,
       image: 'https://picsum.photos/seed/cs-2000/600/400'
     },
     {
       slug: 'cs-3000-bolted-cement-silo',
-      name: t.productsPage.cementSilos.cs3000.name,
-      description: t.productsPage.cementSilos.cs3000.description,
+      name: cementSilos.cs3000.name,
+      description: cementSilos.cs3000.description,
       image: 'https://picsum.photos/seed/cs-3000/600/400'
     },
   ];
@@ -78,7 +80,7 @@ export default function CementSilos() {
             {t.productsDropdown.cementSilos}
           </h1>
           <p className="text-xl text-blue-100">
-            {t.productsPage.cementSilos.subtitle}
+            {cementSilos.subtitle}
           </p>
         </div>
       </section>

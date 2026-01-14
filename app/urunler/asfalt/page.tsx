@@ -6,18 +6,20 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function AsphaltPlant() {
   const { t } = useLanguage();
+  const productsPageAny = t.productsPage as any;
+  const asphaltPlant = productsPageAny.asphaltPlant as any;
 
   const products = [
     {
       slug: 'stationary-asphalt-plant',
-      name: t.productsPage.asphaltPlant.stationary.name,
-      description: t.productsPage.asphaltPlant.stationary.description,
+      name: asphaltPlant.stationary.name,
+      description: asphaltPlant.stationary.description,
       image: 'https://picsum.photos/seed/stationary-asphalt/600/400'
     },
     {
       slug: 'mobile-asphalt-plant-batch',
-      name: t.productsPage.asphaltPlant.mobileBatch.name,
-      description: t.productsPage.asphaltPlant.mobileBatch.description,
+      name: asphaltPlant.mobileBatch.name,
+      description: asphaltPlant.mobileBatch.description,
       image: 'https://picsum.photos/seed/mobile-asphalt-batch/600/400'
     },
   ];
@@ -30,7 +32,7 @@ export default function AsphaltPlant() {
             {t.productsDropdown.asphaltPlant}
           </h1>
           <p className="text-xl text-blue-100">
-            {t.productsPage.asphaltPlant.subtitle}
+            {asphaltPlant.subtitle}
           </p>
         </div>
       </section>

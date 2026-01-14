@@ -37,7 +37,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const cementSilos = t.productsPage.cementSilos as unknown as {
+  const productsPageAny = t.productsPage as any;
+  const cementSilos = productsPageAny.cementSilos as unknown as {
     [key: string]: { name: string; description: string } | string | undefined;
   };
   const product = cementSilos[productKey] as { name: string; description: string } | undefined;

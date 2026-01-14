@@ -6,48 +6,50 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function MobileConcretePlants() {
   const { t } = useLanguage();
+  const productsPageAny = t.productsPage as any;
+  const mobileConcrete = productsPageAny.mobileConcrete as any;
 
   const products = [
     {
       slug: 'mobile-30',
-      name: t.productsPage.mobileConcrete.mobile30.name,
-      description: t.productsPage.mobileConcrete.mobile30.description,
+      name: mobileConcrete.mobile30.name,
+      description: mobileConcrete.mobile30.description,
       image: 'https://picsum.photos/seed/mobile-30/600/400'
     },
     {
       slug: 'mobile-60',
-      name: t.productsPage.mobileConcrete.mobile60.name,
-      description: t.productsPage.mobileConcrete.mobile60.description,
+      name: mobileConcrete.mobile60.name,
+      description: mobileConcrete.mobile60.description,
       image: 'https://picsum.photos/seed/mobile-60/600/400'
     },
     {
       slug: 'mobile-100',
-      name: t.productsPage.mobileConcrete.mobile100.name,
-      description: t.productsPage.mobileConcrete.mobile100.description,
+      name: mobileConcrete.mobile100.name,
+      description: mobileConcrete.mobile100.description,
       image: 'https://picsum.photos/seed/mobile-100/600/400'
     },
     {
       slug: 'mobile-120',
-      name: t.productsPage.mobileConcrete.mobile120.name,
-      description: t.productsPage.mobileConcrete.mobile120.description,
+      name: mobileConcrete.mobile120.name,
+      description: mobileConcrete.mobile120.description,
       image: 'https://picsum.photos/seed/mobile-120/600/400'
     },
     {
       slug: 'mobicom-30',
-      name: t.productsPage.mobileConcrete.mobicom30.name,
-      description: t.productsPage.mobileConcrete.mobicom30.description,
+      name: mobileConcrete.mobicom30.name,
+      description: mobileConcrete.mobicom30.description,
       image: 'https://picsum.photos/seed/mobicom-30/600/400'
     },
     {
       slug: 'mobicom-45',
-      name: t.productsPage.mobileConcrete.mobicom45.name,
-      description: t.productsPage.mobileConcrete.mobicom45.description,
+      name: mobileConcrete.mobicom45.name,
+      description: mobileConcrete.mobicom45.description,
       image: 'https://picsum.photos/seed/mobicom-45/600/400'
     },
     {
       slug: 'prefeeding-conveyor',
-      name: t.productsPage.mobileConcrete.prefeedingConveyor.name,
-      description: t.productsPage.mobileConcrete.prefeedingConveyor.description,
+      name: mobileConcrete.prefeedingConveyor.name,
+      description: mobileConcrete.prefeedingConveyor.description,
       image: 'https://picsum.photos/seed/prefeeding-conveyor/600/400'
     },
   ];
@@ -60,7 +62,7 @@ export default function MobileConcretePlants() {
             {t.productsDropdown.mobileConcrete}
           </h1>
           <p className="text-xl text-blue-100">
-            {t.productsPage.mobileConcrete.subtitle}
+            {mobileConcrete.subtitle}
           </p>
         </div>
       </section>
