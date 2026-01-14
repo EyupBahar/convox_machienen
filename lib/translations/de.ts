@@ -224,6 +224,107 @@ export const de = {
       aggregate: { name: "Gesteinswaschanlagen", description: "Gesteinswasch- und Klassifizierungssysteme." },
       water: { name: "Wasserrückgewinnungssysteme", description: "Umweltfreundliche Wasserrückgewinnungs- und Filtersysteme." }
     },
+    crushingScreening: {
+      title: "Brech- und Siebanlagen",
+      subtitle: "Hochwertige Brech- und Sieblösungen",
+      stationary: {
+        name: "Stationäre Brechanlagen",
+        description: "Hochkapazitive stationäre Brechanlagen für große Projekte. Feste Installation für zuverlässigen Service über viele Jahre.",
+        detailedDescription: "CONSTMACH entwirft und produziert Brech- und Siebanlagen mit verschiedenen Konfigurationen und Kapazitätswerten entsprechend den Bedürfnissen und Präferenzen der Kunden. Die Produktionskapazitätswerte unserer Brech- und Siebanlagen variieren zwischen 50 und 1.000 tph."
+      },
+      jaw: {
+        name: "Backenbrecher",
+        description: "Starke und langlebige Backenbrecher für primäre Brechvorgänge. Hohe Kapazität und Effizienz."
+      },
+      primaryImpact: {
+        name: "Primär-Prallbrecher",
+        description: "Hocheffiziente Primär-Prallbrecher für primäre Brechvorgänge. Langlebige Struktur und lange Lebensdauer."
+      },
+      secondaryImpact: {
+        name: "Sekundär-Prallbrecher",
+        description: "Optimierte Sekundär-Prallbrecher für sekundäre Brechvorgänge. Ideal für die Feinstoffproduktion."
+      },
+      tertiaryImpact: {
+        name: "Tertiär-Prallbrecher",
+        description: "Tertiär-Prallbrecher für tertiäre Brechvorgänge. Hochwertige Gesteinsproduktion."
+      },
+      verticalShaft: {
+        name: "Dik Milli Prallbrecher",
+        description: "Kubische Gesteinsproduktion mit dik milli Prallbrechern. Hohe Effizienz und Qualitätsgarantie."
+      },
+      cone: {
+        name: "Kegelbrecher",
+        description: "Kegelbrecher für die Feinstoffproduktion. Lösungen, die Ihren Bedürfnissen mit verschiedenen Kapazitätsoptionen entsprechen."
+      },
+      wobblerFeeder: {
+        name: "Wobbler-Besleiciler",
+        description: "Wobbler-Besleiciler für schwere und große Materialien. Hohe Kapazität und zuverlässiger Betrieb."
+      },
+      vibratingFeeder: {
+        name: "Vibrationsbesleiciler",
+        description: "Vibrationsbesleiciler für regelmäßige Materialbespeisung. Automatische Steuerung und hohe Effizienz."
+      },
+      vibratingScreen: {
+        name: "Vibrationssiebe",
+        description: "Vibrationssiebe für die Materialsiebung in verschiedenen Größen. Mehrschichtige Siebsysteme."
+      },
+      beltConveyor: {
+        name: "Bandförderer",
+        description: "Bandförderer für den Materialtransport. Verschiedene Längen- und Kapazitätsoptionen."
+      },
+      hydraulicHammer: {
+        name: "Hydraulische Brecher",
+        description: "Hydraulische Brecher für schwere Brechvorgänge. Hohe Leistung und Langlebigkeit."
+      }
+    },
+    mobileCrushing: {
+      title: "Mobile Brechanlagen",
+      subtitle: "Mobile Brechanlagen, die Flexibilität für die Arbeit an verschiedenen Standorten bieten",
+      hardStone: {
+        name: "Mobile Hartgesteinsbrecher",
+        description: "Mobile Brecher für Hartgesteinsbrechvorgänge. Hohe Langlebigkeit und Effizienz."
+      },
+      jawImpact: {
+        name: "Mobile Backen- und Prallbrecher",
+        description: "Hochkapazitive mobile Brechanlagen mit Kombination aus Backen- und Prallbrechern."
+      },
+      sandMaking: {
+        name: "Mobile Dik Milli Brecher",
+        description: "Mobile dik milli Brecher für hochwertige Sandproduktion an verschiedenen Standorten."
+      },
+      limestone: {
+        name: "Mobile Kalksteinbrecher",
+        description: "Mobile Brecher optimiert für Kalksteinbrechvorgänge. Hohe Effizienz."
+      }
+    },
+    gravelWashing: {
+      title: "Kieswaschanlagen",
+      subtitle: "Hochwertige Kieswasch- und Sieblösungen",
+      stationary: {
+        name: "Stationäre Wasch- und Siebanlage",
+        description: "Hochkapazitive stationäre Wasch- und Siebanlagen für große Projekte. Feste Installation für zuverlässigen Service über viele Jahre."
+      },
+      mobile: {
+        name: "Mobile Wasch- und Siebanlage",
+        description: "Mobile Wasch- und Siebanlagen, die Flexibilität für die Arbeit an verschiedenen Standorten bieten. Schnelle Installation und Portabilität."
+      },
+      screwWasher: {
+        name: "Schneckenwäscher",
+        description: "Schneckenwäscher für Sand- und Kieswäsche. Hohe Effizienz und saubere Materialproduktion."
+      },
+      dewatering: {
+        name: "Entwässerungssieb und Hydrozyklon",
+        description: "Entwässerungssieb und Hydrozyklonsysteme für Materialentwässerung. Wassereinsparung und Effizienz."
+      },
+      logWasher: {
+        name: "Palettenwäscher (Grobmaterialwäscher)",
+        description: "Palettenwäscher für stark verschmutzte Materialien. Hohe Kapazität und effektive Reinigung."
+      },
+      wheelWasher: {
+        name: "Eimerwäscher",
+        description: "Eimerwäscher für Sand- und Kieswäsche. Niedriger Wasserverbrauch und hohe Effizienz."
+      }
+    },
     productDetail: {
       viewDetails: "Details anzeigen",
       productFeatures: "Produkteigenschaften",

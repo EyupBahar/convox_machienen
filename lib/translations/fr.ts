@@ -224,6 +224,107 @@ export const fr = {
       aggregate: { name: "Systèmes de lavage d'agrégats", description: "Systèmes de lavage et de classification d'agrégats." },
       water: { name: "Systèmes de récupération d'eau", description: "Systèmes de récupération et de filtration d'eau respectueux de l'environnement." }
     },
+    crushingScreening: {
+      title: "Installations de concassage-criblage",
+      subtitle: "Solutions de concassage et de criblage de haute qualité",
+      stationary: {
+        name: "Installations de concassage stationnaires",
+        description: "Installations de concassage stationnaires à haute capacité pour les grands projets. Installation fixe pour un service fiable pendant de nombreuses années.",
+        detailedDescription: "CONSTMACH conçoit et fabrique des installations de concassage et de criblage avec différentes configurations et valeurs de capacité selon les besoins et préférences des clients. Les valeurs de capacité de production de nos installations de concassage et de criblage varient entre 50 et 1.000 tph."
+      },
+      jaw: {
+        name: "Concasseurs à mâchoires",
+        description: "Concasseurs à mâchoires robustes et durables pour les opérations de concassage primaire. Haute capacité et efficacité."
+      },
+      primaryImpact: {
+        name: "Concasseurs à percussion primaires",
+        description: "Concasseurs à percussion primaires à haut rendement pour les opérations de concassage primaire. Structure durable et longue durée de vie."
+      },
+      secondaryImpact: {
+        name: "Concasseurs à percussion secondaires",
+        description: "Concasseurs à percussion secondaires optimisés pour les opérations de concassage secondaire. Idéal pour la production de matériaux fins."
+      },
+      tertiaryImpact: {
+        name: "Concasseurs à percussion tertiaires",
+        description: "Concasseurs à percussion tertiaires conçus pour les opérations de concassage tertiaire. Production d'agrégats de haute qualité."
+      },
+      verticalShaft: {
+        name: "Concasseurs à percussion à arbre vertical",
+        description: "Production d'agrégats cubiques avec des concasseurs à percussion à arbre vertical. Haute efficacité et garantie de qualité."
+      },
+      cone: {
+        name: "Concasseurs à cône",
+        description: "Concasseurs à cône pour la production de matériaux fins. Solutions adaptées à vos besoins avec différentes options de capacité."
+      },
+      wobblerFeeder: {
+        name: "Alimentateurs Wobbler",
+        description: "Alimentateurs wobbler pour matériaux lourds et volumineux. Haute capacité et fonctionnement fiable."
+      },
+      vibratingFeeder: {
+        name: "Alimentateurs vibrants",
+        description: "Alimentateurs vibrants pour l'alimentation régulière en matériaux. Contrôle automatique et haute efficacité."
+      },
+      vibratingScreen: {
+        name: "Cribles vibrants",
+        description: "Cribles vibrants pour le criblage de matériaux de différentes tailles. Systèmes de criblage multicouches."
+      },
+      beltConveyor: {
+        name: "Convoyeurs à bande",
+        description: "Convoyeurs à bande pour le transport de matériaux. Différentes options de longueur et de capacité."
+      },
+      hydraulicHammer: {
+        name: "Marteaux hydrauliques",
+        description: "Marteaux hydrauliques pour opérations de concassage lourdes. Haute puissance et durabilité."
+      }
+    },
+    mobileCrushing: {
+      title: "Installations de concassage mobiles",
+      subtitle: "Installations de concassage mobiles offrant la flexibilité de travailler à différents emplacements",
+      hardStone: {
+        name: "Concasseurs mobiles pour pierres dures",
+        description: "Concasseurs mobiles conçus pour les opérations de concassage de pierres dures. Haute durabilité et efficacité."
+      },
+      jawImpact: {
+        name: "Concasseurs mobiles à mâchoires et à percussion",
+        description: "Installations de concassage mobiles à haute capacité avec combinaison de concasseurs à mâchoires et à percussion."
+      },
+      sandMaking: {
+        name: "Concasseurs mobiles à arbre vertical",
+        description: "Concasseurs mobiles à arbre vertical pour la production de sable de haute qualité à différents emplacements."
+      },
+      limestone: {
+        name: "Concasseurs mobiles pour calcaire",
+        description: "Concasseurs mobiles optimisés pour les opérations de concassage de calcaire. Haute efficacité."
+      }
+    },
+    gravelWashing: {
+      title: "Systèmes de lavage de gravier",
+      subtitle: "Solutions de lavage et de criblage de gravier de haute qualité",
+      stationary: {
+        name: "Installation de lavage et de criblage stationnaire",
+        description: "Installations de lavage et de criblage stationnaires à haute capacité pour les grands projets. Installation fixe pour un service fiable pendant de nombreuses années."
+      },
+      mobile: {
+        name: "Installation de lavage et de criblage mobile",
+        description: "Installations de lavage et de criblage mobiles offrant la flexibilité de travailler à différents emplacements. Installation rapide et portabilité."
+      },
+      screwWasher: {
+        name: "Laveur à vis",
+        description: "Laveur à vis pour le lavage de sable et de gravier. Haute efficacité et production de matériaux propres."
+      },
+      dewatering: {
+        name: "Crible de déshydratation et hydrocyclone",
+        description: "Crible de déshydratation et systèmes d'hydrocyclone pour la déshydratation des matériaux. Économies d'eau et efficacité."
+      },
+      logWasher: {
+        name: "Laveur à palettes (laveur de matériaux grossiers)",
+        description: "Laveur à palettes pour matériaux fortement contaminés. Haute capacité et nettoyage efficace."
+      },
+      wheelWasher: {
+        name: "Laveur à godets",
+        description: "Laveur à godets pour le lavage de sable et de gravier. Faible consommation d'eau et haute efficacité."
+      }
+    },
     productDetail: {
       viewDetails: "Voir les détails",
       productFeatures: "Caractéristiques du produit",

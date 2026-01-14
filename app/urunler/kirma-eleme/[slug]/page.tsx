@@ -56,8 +56,6 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
       </div>
     );
   }
-    detailedDescription?: string;
-  };
 
   const isStationary = slug === 'stationary-crushing-plants';
   const isJaw = slug === 'jaw-crushers';
