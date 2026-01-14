@@ -134,10 +134,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {hardStoneProducts.map((subProduct) => {
-                const subProductData = t.productsPage.mobileCrushing.hardStoneProducts[subProduct.key as keyof typeof t.productsPage.mobileCrushing.hardStoneProducts] as {
+                const mobileCrushingAny = t.productsPage.mobileCrushing as any;
+                const subProductData = mobileCrushingAny.hardStoneProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div
@@ -179,10 +182,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {sandMakingProducts.map((subProduct) => {
-                const subProductData = t.productsPage.mobileCrushing.sandMakingProducts[subProduct.key as keyof typeof t.productsPage.mobileCrushing.sandMakingProducts] as {
+                const mobileCrushingAny = t.productsPage.mobileCrushing as any;
+                const subProductData = mobileCrushingAny.sandMakingProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div
@@ -224,10 +230,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {jawImpactProducts.map((subProduct) => {
-                const subProductData = t.productsPage.mobileCrushing.jawImpactProducts[subProduct.key as keyof typeof t.productsPage.mobileCrushing.jawImpactProducts] as {
+                const mobileCrushingAny = t.productsPage.mobileCrushing as any;
+                const subProductData = mobileCrushingAny.jawImpactProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div
@@ -269,10 +278,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {limestoneProducts.map((subProduct) => {
-                const subProductData = t.productsPage.mobileCrushing.limestoneProducts[subProduct.key as keyof typeof t.productsPage.mobileCrushing.limestoneProducts] as {
+                const mobileCrushingAny = t.productsPage.mobileCrushing as any;
+                const subProductData = mobileCrushingAny.limestoneProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div

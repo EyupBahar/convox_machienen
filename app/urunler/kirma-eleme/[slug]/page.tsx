@@ -114,10 +114,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {stationaryProducts.map((subProduct) => {
-                const subProductData = t.productsPage.crushingScreening.stationaryProducts[subProduct.key as keyof typeof t.productsPage.crushingScreening.stationaryProducts] as {
+                const crushingScreeningAny = t.productsPage.crushingScreening as any;
+                const subProductData = crushingScreeningAny.stationaryProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div

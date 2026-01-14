@@ -43,7 +43,9 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
   // Safely access the product by key with proper type casting
   // Using unknown first to avoid type conflicts, then casting to allow indexing
   const concreteBatching = t.productsPage.concreteBatching as unknown as {
-    [key: string]: ProductDetail | string | undefined;
+    [key: string]: ProductDetail | string | {
+      [key: string]: { name: string; description: string };
+    } | undefined;
   };
   const product = concreteBatching[productKey] as ProductDetail | undefined;
   
@@ -164,10 +166,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {stationaryProducts.map((subProduct) => {
-                const subProductData = t.productsPage.concreteBatching.stationaryProducts[subProduct.key as keyof typeof t.productsPage.concreteBatching.stationaryProducts] as {
+                const concreteBatchingAny = t.productsPage.concreteBatching as any;
+                const subProductData = concreteBatchingAny.stationaryProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div
@@ -271,10 +276,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {compactProducts.map((subProduct) => {
-                const subProductData = t.productsPage.concreteBatching.compactProducts[subProduct.key as keyof typeof t.productsPage.concreteBatching.compactProducts] as {
+                const concreteBatchingAny = t.productsPage.concreteBatching as any;
+                const subProductData = concreteBatchingAny.compactProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div
@@ -316,10 +324,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {dryTypeProducts.map((subProduct) => {
-                const subProductData = t.productsPage.concreteBatching.dryTypeProducts[subProduct.key as keyof typeof t.productsPage.concreteBatching.dryTypeProducts] as {
+                const concreteBatchingAny = t.productsPage.concreteBatching as any;
+                const subProductData = concreteBatchingAny.dryTypeProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <Link
@@ -485,10 +496,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {mixersProducts.map((subProduct) => {
-                const subProductData = t.productsPage.concreteBatching.mixersProducts[subProduct.key as keyof typeof t.productsPage.concreteBatching.mixersProducts] as {
+                const concreteBatchingAny = t.productsPage.concreteBatching as any;
+                const subProductData = concreteBatchingAny.mixersProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div
