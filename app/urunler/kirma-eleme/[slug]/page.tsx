@@ -40,9 +40,9 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
   }
 
   const crushingScreening = t.productsPage.crushingScreening as unknown as {
-    [key: string]: { name: string; description: string } | string | undefined;
+    [key: string]: { name: string; description: string; detailedDescription?: string } | string | undefined;
   };
-  const product = crushingScreening[productKey] as { name: string; description: string } | undefined;
+  const product = crushingScreening[productKey] as { name: string; description: string; detailedDescription?: string } | undefined;
   
   if (!product) {
     return (
