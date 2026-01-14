@@ -29,7 +29,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const asphaltPlant = t.productsPage.asphaltPlant as unknown as {
+  const productsPageAny = t.productsPage as any;
+  const asphaltPlant = productsPageAny.asphaltPlant as unknown as {
     [key: string]: { name: string; description: string } | string | undefined;
   };
   const product = asphaltPlant[productKey] as { name: string; description: string } | undefined;

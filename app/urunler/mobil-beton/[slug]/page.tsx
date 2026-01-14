@@ -34,7 +34,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const mobileConcrete = t.productsPage.mobileConcrete as unknown as {
+  const productsPageAny = t.productsPage as any;
+  const mobileConcrete = productsPageAny.mobileConcrete as unknown as {
     [key: string]: { name: string; description: string } | string | undefined;
   };
   const product = mobileConcrete[productKey] as { name: string; description: string } | undefined;

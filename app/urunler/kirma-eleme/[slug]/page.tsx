@@ -39,7 +39,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const crushingScreening = t.productsPage.crushingScreening as unknown as {
+  const productsPageAny = t.productsPage as any;
+  const crushingScreening = productsPageAny.crushingScreening as unknown as {
     [key: string]: { name: string; description: string; detailedDescription?: string } | string | undefined;
   };
   const product = crushingScreening[productKey] as { name: string; description: string; detailedDescription?: string } | undefined;
@@ -114,7 +115,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {stationaryProducts.map((subProduct) => {
-                const crushingScreeningAny = t.productsPage.crushingScreening as any;
+                const productsPageAny = t.productsPage as any;
+                const crushingScreeningAny = productsPageAny.crushingScreening as any;
                 const subProductData = crushingScreeningAny.stationaryProducts?.[subProduct.key] as {
                   name: string;
                   description: string;

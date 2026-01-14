@@ -33,7 +33,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const gravelWashing = t.productsPage.gravelWashing as unknown as {
+  const productsPageAny = t.productsPage as any;
+  const gravelWashing = productsPageAny.gravelWashing as unknown as {
     [key: string]: { name: string; description: string } | string | undefined;
   };
   const product = gravelWashing[productKey] as { name: string; description: string } | undefined;

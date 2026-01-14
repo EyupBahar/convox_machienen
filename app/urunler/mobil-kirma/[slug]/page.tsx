@@ -31,7 +31,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const mobileCrushing = t.productsPage.mobileCrushing as unknown as {
+  const productsPageAny = t.productsPage as any;
+  const mobileCrushing = productsPageAny.mobileCrushing as unknown as {
     [key: string]: { name: string; description: string } | string | undefined;
   };
   const product = mobileCrushing[productKey] as { name: string; description: string } | undefined;
@@ -134,7 +135,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {hardStoneProducts.map((subProduct) => {
-                const mobileCrushingAny = t.productsPage.mobileCrushing as any;
+                const productsPageAny = t.productsPage as any;
+                const mobileCrushingAny = productsPageAny.mobileCrushing as any;
                 const subProductData = mobileCrushingAny.hardStoneProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
@@ -182,7 +184,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {sandMakingProducts.map((subProduct) => {
-                const mobileCrushingAny = t.productsPage.mobileCrushing as any;
+                const productsPageAny = t.productsPage as any;
+                const mobileCrushingAny = productsPageAny.mobileCrushing as any;
                 const subProductData = mobileCrushingAny.sandMakingProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
@@ -230,7 +233,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {jawImpactProducts.map((subProduct) => {
-                const mobileCrushingAny = t.productsPage.mobileCrushing as any;
+                const productsPageAny = t.productsPage as any;
+                const mobileCrushingAny = productsPageAny.mobileCrushing as any;
                 const subProductData = mobileCrushingAny.jawImpactProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
@@ -278,7 +282,8 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {limestoneProducts.map((subProduct) => {
-                const mobileCrushingAny = t.productsPage.mobileCrushing as any;
+                const productsPageAny = t.productsPage as any;
+                const mobileCrushingAny = productsPageAny.mobileCrushing as any;
                 const subProductData = mobileCrushingAny.limestoneProducts?.[subProduct.key] as {
                   name: string;
                   description: string;
