@@ -199,6 +199,18 @@ export const de = {
       bitumen: { name: "Bitumenverarbeitungsausrüstung", description: "Bitumenemulsions- und modifizierte Bitumenproduktionsausrüstung." },
       recycling: { name: "Asphaltrecyclingsysteme", description: "Umweltfreundliche Asphaltrecycling- und RAP-Verarbeitungssysteme." }
     },
+    asphaltPlant: {
+      title: "Asphaltanlagen",
+      subtitle: "Hochwertige Asphaltproduktionslösungen",
+      stationary: {
+        name: "Stationäre Asphaltanlage",
+        description: "Hochkapazitive stationäre Asphaltanlagen für große Projekte. Zuverlässiger Service mit Kapazitäten von 80-400 Tonnen/Stunde."
+      },
+      mobileBatch: {
+        name: "Mobile Asphaltanlage (Batch-Typ)",
+        description: "Mobile Asphaltanlagen vom Batch-Typ, die Flexibilität für die Arbeit an verschiedenen Standorten bieten. Schnelle Installation und Portabilität."
+      }
+    },
     crushing: {
       title: "Brech- und Siebanlagen",
       jaw: { name: "Backenbrecher", description: "Starke und langlebige Backenbrecher für primäre Brechvorgänge." },

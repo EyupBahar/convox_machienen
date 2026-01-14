@@ -199,6 +199,18 @@ export const fr = {
       bitumen: { name: "Équipements de traitement du bitume", description: "Équipements de production d'émulsion de bitume et de bitume modifié." },
       recycling: { name: "Systèmes de recyclage d'asphalte", description: "Systèmes de recyclage d'asphalte et de traitement RAP respectueux de l'environnement." }
     },
+    asphaltPlant: {
+      title: "Installations d'asphalte",
+      subtitle: "Solutions de production d'asphalte de haute qualité",
+      stationary: {
+        name: "Installation d'asphalte stationnaire",
+        description: "Installations d'asphalte stationnaires à haute capacité pour les grands projets. Service fiable avec des capacités de 80-400 tonnes/heure."
+      },
+      mobileBatch: {
+        name: "Installation d'asphalte mobile (type batch)",
+        description: "Installations d'asphalte mobiles de type batch offrant la flexibilité de travailler à différents emplacements. Installation rapide et portabilité."
+      }
+    },
     crushing: {
       title: "Installations de concassage-criblage",
       jaw: { name: "Concasseurs à mâchoires", description: "Concasseurs à mâchoires robustes et durables pour les opérations de concassage primaire." },
