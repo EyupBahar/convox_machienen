@@ -214,10 +214,14 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {mobileProducts.map((subProduct) => {
-                const subProductData = t.productsPage.mobileConcrete[subProduct.key as keyof typeof t.productsPage.mobileConcrete] as {
+                const productsPageAny = t.productsPage as any;
+                const mobileConcreteAny = productsPageAny.mobileConcrete as any;
+                const subProductData = mobileConcreteAny?.[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <Link
@@ -389,10 +393,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {cementSilosProductsGeneral.map((subProduct) => {
-                const subProductData = t.productsPage.cementSilos[subProduct.key as keyof typeof t.productsPage.cementSilos] as {
+                const cementSilosAny = t.productsPage.cementSilos as any;
+                const subProductData = cementSilosAny[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <div
@@ -434,10 +441,13 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {cementSilosProductsWithDetails.map((subProduct) => {
-                const subProductData = t.productsPage.cementSilos[subProduct.key as keyof typeof t.productsPage.cementSilos] as {
+                const cementSilosAny = t.productsPage.cementSilos as any;
+                const subProductData = cementSilosAny[subProduct.key] as {
                   name: string;
                   description: string;
-                };
+                } | undefined;
+                
+                if (!subProductData) return null;
                 
                 return (
                   <Link

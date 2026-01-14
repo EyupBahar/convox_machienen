@@ -107,10 +107,13 @@ export default function ConcreteBatchingPlants() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {concreteBatchingProducts.map((product) => {
-              const productData = t.productsPage.concreteBatching[product.key as keyof typeof t.productsPage.concreteBatching] as {
+              const concreteBatchingAny = t.productsPage.concreteBatching as any;
+              const productData = concreteBatchingAny[product.key] as {
                 name: string;
                 description: string;
-              };
+              } | undefined;
+              
+              if (!productData) return null;
               
               return (
                 <Link
