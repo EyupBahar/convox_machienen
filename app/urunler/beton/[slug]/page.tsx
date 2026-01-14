@@ -33,12 +33,27 @@ export default function ProductDetail({ params }: { params: Promise<{ slug: stri
     );
   }
 
-  const product = t.productsPage.concreteBatching[productKey] as {
+  const concreteBatching = t.productsPage.concreteBatching as Record<string, {
     name: string;
     description: string;
     detailTitle: string;
     detailDescription: string;
-  };
+  }>;
+  
+  const product = concreteBatching[productKey];
+  
+  if (!product || !product.detailTitle || !product.detailDescription) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">{t.productsPage.productDetail.productNotFound}</h1>
+          <Link href="/urunler/beton" className="text-blue-600 hover:underline">
+            {t.productsPage.productDetail.goBack}
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   // Check if this is Stationary Concrete Plants to show sub-products
   const isStationary = slug === 'stationary-concrete-plants';
